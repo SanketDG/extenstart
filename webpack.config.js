@@ -1,6 +1,6 @@
 const { resolve } = require("path");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
-const ExtensionReloaderPlugin = require("webpack-extension-reloader");
+const ExtensionReloaderPlugin = require("../webpack-extension-reloader");
 
 const mode = process.env.NODE_ENV;
 module.exports = {
